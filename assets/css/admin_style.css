@@ -1,0 +1,417 @@
+/* new */
+#wpcontent {
+    background-color: #f8f9ff !important;
+}
+#wpbody{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn.custom-button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #314af3;
+    color: #FFF;
+}
+#wpbody h4{
+    font-weight: bold;
+}
+
+.btn.custom-button:hover {
+    background-color: #314af3;
+    color: #FFF;
+}
+
+input.custom-input {
+    padding: 7px 15px;
+    border: none;
+    background-color: #FFF;
+    font-weight: bolder;
+}
+
+input.custom-input:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.container-white {
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+
+.shadow-sm span {
+    padding-left: 5px;
+}
+
+.colorpicker-container1 {
+    height: 0;
+    z-index: 2;
+
+}
+
+.colorpicker-container2, .colorpicker-container3 {
+    height: 0;
+    z-index: 1;
+}
+
+.wp-core-ui .button {
+    border-color: #8c8f94;
+}
+
+.wp-core-ui .button:hover {
+    border-color: #8c8f94;
+}
+
+.wp-color-result:focus {
+    border: none;
+    border-color: transparent;
+    box-shadow: 0 0 0 1px #8c8f94 !important;
+}
+
+select {
+    border: transparent;
+}
+
+.sbh_menu {
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #314af3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.sbh_menu.active {
+    background-color: #314af3;
+    opacity: .8;
+}
+
+.container-fluid h4 {
+    font-size: 17px;
+}
+
+input[type=checkbox] {
+    margin-top: 2px;
+}
+
+input[type=checkbox]:focus {
+    box-shadow: none;
+    border-color: #8c8f94;
+}
+
+.holidays-advance {
+    background-color: #f8f9ff;
+}
+
+.holidays-advance h4 {
+    cursor: pointer;
+}
+
+.holidays-advance i {
+    float: right;
+}
+
+.holidays-advance input {
+    width: 40px;
+}
+
+.settings-container p:nth-child(1) {
+    border: 1px solid #314af3;
+    border-radius: 7px;
+    padding: 5px 15px;
+    background-color: #f8f9ff;
+}
+
+.holidays-container .add_holiday_ {
+    display: inline;
+    cursor: pointer;
+    font-weight: bold;
+    color: #314af3;
+    text-decoration: none;
+}
+
+::-webkit-calendar-picker-indicator{
+    margin-left: 0;
+}
+
+.days-container select, .settings-container select {
+    background-color: #f8f9ff;
+}
+
+.arrow_ {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up_ {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down_ {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.holidays_special_hours td:nth-child(1){
+    max-width: 117px;
+}
+.holidays_special_hours td{
+padding: 5px;
+}
+
+.holidays_special_hours td:nth-child(4), .holidays_special_hours td:nth-child(5){
+    max-width: 110px;
+}
+.holidays_special_hours td:nth-child(1) input,.holidays_special_hours td:nth-child(4) input, .holidays_special_hours td:nth-child(5) input{
+    width: 100%;
+}
+
+.holidays_{
+    margin-top: 15px;
+}
+.ui-timepicker-standard{
+    font-size: 14px !important;
+}
+
+.timepicker_open:focus-visible,.special_time_picker_open:focus-visible,
+.special_time_picker_close:focus-visible, .timepicker_close:focus-visible{
+    outline-width: 0;
+}
+
+.holidays_special_hours button {
+    border: none;
+    border-radius: 45%;
+    background-color: #314af3;
+    color: #FFF;
+}
+
+/* customize toggle */
+.toggle-handle.btn{
+    background: #FFF;
+}
+.toggle.btn.btn-sm.btn-secondary.off{
+    border-color: #adadad;
+}
+.btn.btn-secondary.active.toggle-off{
+    color: #333;
+    background-color: #e6e6e6;
+}
+.toggle.btn.btn-sm.btn-primary:active{
+    background-color: #314af3 !important;
+}
+.form-table{
+    width: unset;
+}
+.form-table tbody tr th{
+    width: 100px;
+}
+
+tbody tr.display_alldays td:nth-child(2){
+    width: 115px;
+}
+tr.display_alldays td.timepickerday:nth-child(3):after{
+  content: '\2014';
+  padding-left: 10px;
+}
+
+.form-table td{
+    padding-right: 0;
+}
+table.holidays_special_hours .holiday_title{
+    width: 100px;
+}
+table.holidays_special_hours tbody tr td:nth-child(3){
+    width: 50px;
+}
+
+/* TOGGLE */
+.switch {
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    width: 50px;
+    background-color: #9aa0a6;
+    border-radius: 18px;
+  }
+
+  .switch.checked{
+      background-color: #a0c2f9;
+  }
+
+  input:checked + .switch  {
+    background-color: red !important;
+  }
+  
+  .switch input {
+    display:none;
+
+  }
+  
+  .slider {
+    background-color: #FFF;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transition: .4s;
+    width: 35px;
+    margin-left: 7px;
+    top: 9px;
+    height: 2px;
+  }
+  
+  .slider:before {
+    background-color: #FFF;
+    bottom: -14px;
+    content: "";
+    height: 30px;
+    left: -10px;
+    position: absolute;
+    transition: .4s;
+    width: 30px;
+    box-shadow: 0 1px 5px 1px rgb(150, 170, 180,0.5);
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+    background-color: #1a73e8;
+  }
+  
+  .slider.round {
+    
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .timepicker_open,.timepicker_close,.special_time_picker_open,.special_time_picker_close{
+    border: none;
+    border-bottom: 1px solid #dfe1e4;
+  }
+  td.td-btn-copy{
+      padding: 0 10px;
+  }
+
+  .timepicker_open{
+      width: 80%;
+  }
+
+  .btn.bnt_copy{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  
+  .business-hours{
+      max-width: unset !important;
+  }
+  .working-time{
+      width: unset !important;
+  }
+  .Business-new-8{
+      width: unset !important;
+  }
+/*style 9*/
+  .bac-business{
+    min-height: 200px;
+    padding: 56px 0 0 120px !important;
+  }
+
+  .style_9_frontend{
+      width: unset !important;
+      max-width: 400px;
+      background-size: 100% !important;
+  }
+
+  .style_9_frontend p{
+    font-size: 11px !important;
+  }
+
+  .style_9_frontend strong{
+      font-size: 16px !important;
+  }
+
+  /* style5*/
+  .mid-section{
+      box-shadow: none !important;
+      padding:0!important;
+  }
+
+  /* navbar styles */
+    .sbh-edit-nav-items > li:not(:last-child) {
+        margin-right: 15px;
+    }
+    .sbh-navbar {
+        padding: 32px 32px;
+        font-family: 'Poppins';
+    }
+    .sbh-top-nav-container {
+        float: right;
+    }
+    ul.sbh-edit-nav-items {
+        margin-bottom: 0;
+        display: inline;
+    }
+
+    ul.sbh-edit-nav-items li {
+        display: inline;
+        margin-bottom: 0;
+    }
+    ul.sbh-edit-nav-items li:focus {
+        background-color: #1a73e8;
+    }
+    ul.sbh-edit-nav-items li a {
+        color: #2b2b2b;
+        font-size:14px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    ul.sbh-edit-nav-items ul.dropdown-menu.show {
+        padding: 0;
+    }
+    ul.sbh-edit-nav-items li:focus, ul.sbh-edit-nav-items li a:focus {
+        outline: unset;
+        box-shadow: unset;
+    }
+    ul.sbh-edit-nav-items > li:last-child > .dropdown-menu {
+        left: -95px;
+    }
+
+    .p-4.shadow-sm.rounded-3.bg-white.font-section{
+        /* background-color: #2b2b2b !important; */
+        position: relative;
+    }
+
+#oo{
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0,0,0.5);
+    z-index: 3;
+}
+#oo p{
+    position: relative;
+    top: 45%;
+    margin: 0 20px;
+}
+
+#oo p a{
+    color: orange;
+}
+
+.free_version a{
+    text-decoration: underline !important;
+    color: orange !important;
+}
